@@ -239,8 +239,8 @@ Pilih bangun ruang (1-4): 1
 Masukkan sisi kubus: 5
 
 Volume Kubus = 125
-Luas Permukaan Kubus = 150
-``
+Luas Permukaan Kubus = 150``
+
 
 # Tujuan Pembuatan Program
 Program ini dibuat untuk:
