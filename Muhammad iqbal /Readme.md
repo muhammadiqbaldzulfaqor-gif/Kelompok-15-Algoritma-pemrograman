@@ -29,36 +29,33 @@ Penggunaan konstanta matematika dari Math.PI
 Source Code Program
 ``
 import java.util.Scanner;
-
 public class BangunRuang {
 
     public static void main(String[] args) {
-
         Scanner input = new Scanner(System.in);
 
-        System.out.println("=== PROGRAM MENGHITUNG BANGUN RUANG ===");
+        int pilihan;
+
+        System.out.println("=== Program Menghitung Volume Bangun Ruang ===");
         System.out.println("1. Kubus");
         System.out.println("2. Balok");
-        System.out.println("3. Bola");
-        System.out.println("4. Tabung");
-        System.out.print("Pilih bangun ruang (1-4): ");
+        System.out.println("3. Tabung");
+        System.out.print("Pilih bangun ruang (1-3): ");
+        pilihan = input.nextInt();
 
-        int pilihan = input.nextInt();
-
-        switch(pilihan){
+        switch (pilihan) {
 
             case 1:
-                System.out.print("Masukkan sisi kubus: ");
+                // Kubus
+                System.out.print("Masukkan panjang sisi kubus: ");
                 double sisi = input.nextDouble();
-
                 double volumeKubus = sisi * sisi * sisi;
-                double luasKubus = 6 * sisi * sisi;
 
                 System.out.println("Volume Kubus = " + volumeKubus);
-                System.out.println("Luas Permukaan Kubus = " + luasKubus);
                 break;
 
             case 2:
+                // Balok
                 System.out.print("Masukkan panjang: ");
                 double panjang = input.nextDouble();
 
@@ -69,35 +66,21 @@ public class BangunRuang {
                 double tinggi = input.nextDouble();
 
                 double volumeBalok = panjang * lebar * tinggi;
-                double luasBalok = 2 * (panjang*lebar + panjang*tinggi + lebar*tinggi);
 
                 System.out.println("Volume Balok = " + volumeBalok);
-                System.out.println("Luas Permukaan Balok = " + luasBalok);
                 break;
 
             case 3:
-                System.out.print("Masukkan jari-jari bola: ");
+                // Tabung
+                System.out.print("Masukkan jari-jari: ");
                 double r = input.nextDouble();
 
-                double volumeBola = (4.0/3.0) * Math.PI * r * r * r;
-                double luasBola = 4 * Math.PI * r * r;
-
-                System.out.println("Volume Bola = " + volumeBola);
-                System.out.println("Luas Permukaan Bola = " + luasBola);
-                break;
-
-            case 4:
-                System.out.print("Masukkan jari-jari tabung: ");
-                double jari = input.nextDouble();
-
-                System.out.print("Masukkan tinggi tabung: ");
+                System.out.print("Masukkan tinggi: ");
                 double t = input.nextDouble();
 
-                double volumeTabung = Math.PI * jari * jari * t;
-                double luasTabung = 2 * Math.PI * jari * (jari + t);
+                double volumeTabung = Math.PI * r * r * t;
 
                 System.out.println("Volume Tabung = " + volumeTabung);
-                System.out.println("Luas Permukaan Tabung = " + luasTabung);
                 break;
 
             default:
