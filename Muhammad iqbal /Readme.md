@@ -108,8 +108,9 @@ public class BangunRuang {
 
 Penjelasan Program
 1. Import Library
+``
 import java.util.Scanner;
-
+``
 Library Scanner digunakan untuk mengambil input dari pengguna melalui keyboard.
 
 2. Membuat Class Utama
