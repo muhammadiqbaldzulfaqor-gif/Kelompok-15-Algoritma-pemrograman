@@ -2,7 +2,7 @@
 Author : Muhammad iqbal dzulfaqor
 
 
-Deskripsi Program
+# Deskripsi Program
 
 Program ini merupakan aplikasi sederhana berbasis Java yang digunakan untuk menghitung volume dan luas permukaan beberapa bangun ruang. Bangun ruang yang tersedia dalam program ini meliputi:
 
@@ -110,19 +110,19 @@ public class BangunRuang {
 ``
 
 Penjelasan Program
-1. Import Library
-``
-import java.util.Scanner;
+# 1. Import Library
+``t java.util.Scanner;
 ``
 Library Scanner digunakan untuk mengambil input dari pengguna melalui keyboard.
 
-2. Membuat Class Utama
+# 2. Membuat Class Utama
 ``
 public class BangunRuang {
 ``
 Class BangunRuang merupakan class utama yang berisi seluruh program.
 
-3. Method Main
+
+impor3. Method Main
 ``
 public static void main(String[] args)
 ``
