@@ -121,20 +121,20 @@ public class BangunRuang {
 ``
 Class BangunRuang merupakan class utama yang berisi seluruh program.
 
-
-impor3. Method Main
+impor
+# 3. Method Main
 ``
 public static void main(String[] args)
 ``
 Method main() adalah titik awal eksekusi program Java. Semua perintah program dijalankan dari method ini.
 
-4. Membuat Objek Scanner
+# 4. Membuat Objek Scanner
 ``
 Scanner input = new Scanner(System.in);
 ``
 Objek ini digunakan untuk membaca input dari pengguna seperti angka yang dimasukkan melalui keyboard.
 
-5. Menampilkan Menu Program
+# 5. Menampilkan Menu Program
 ``
 System.out.println("1. Kubus");
 System.out.println("2. Balok");
@@ -143,13 +143,13 @@ System.out.println("4. Tabung");
 ``
 Program menampilkan menu pilihan bangun ruang agar pengguna dapat memilih bangun ruang yang ingin dihitung.
 
-6. Mengambil Input Pilihan User
+# 6. Mengambil Input Pilihan User
 ``
 int pilihan = input.nextInt();
 ``
 Program membaca pilihan pengguna dan menyimpannya dalam variabel pilihan.
 
-7. Percabangan Switch Case
+# 7. Percabangan Switch Case
 ``
 switch(pilihan)
 ``
@@ -157,7 +157,7 @@ Struktur switch-case digunakan untuk menjalankan perhitungan sesuai dengan pilih
 
 Setiap case merepresentasikan bangun ruang yang berbeda.
 
-8. Perhitungan Bangun Ruang
+# 8. Perhitungan Bangun Ruang
 ``
 Kubus
 
