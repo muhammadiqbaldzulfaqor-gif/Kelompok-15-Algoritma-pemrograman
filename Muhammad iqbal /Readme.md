@@ -1,4 +1,5 @@
-# Program Perhitungan Bangun Ruang Menggunakan Java
+# Program Bangun Ruang Menggunakan Java
+Author : Muhammad iqbal dzulfaqor
 Deskripsi Program
 
 Program ini merupakan aplikasi sederhana berbasis Java yang digunakan untuk menghitung volume dan luas permukaan beberapa bangun ruang. Bangun ruang yang tersedia dalam program ini meliputi:
