@@ -240,14 +240,9 @@ Masukkan sisi kubus: 5
 
 Volume Kubus = 125
 Luas Permukaan Kubus = 150
-Tujuan Pembuatan Program
+``
 
+# Tujuan Pembuatan Program
 Program ini dibuat untuk:
-
-Memahami dasar pemrograman Java
-
-Mengimplementasikan rumus matematika dalam program
-
-Mempelajari struktur percabangan
-
-Melatih penggunaan input dan output dalam Java
+Memahami dasar pemrograman Java,Mengimplementasikan rumus matematika dalam program,Mempelajari struktur percabangan
+Dan Melatih penggunaan input dan output dalam Java
