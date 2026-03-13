@@ -203,6 +203,7 @@ Luas Permukaan
 L = 2πr(r+t)
 
 # Output
+<img width="1325" height="592" alt="Cuplikan layar 2026-03-13 225924" src="https://github.com/user-attachments/assets/398346a3-be42-40cf-b8ba-0f968f828d89" />
 
 
 # Tujuan Pembuatan Program
