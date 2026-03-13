@@ -219,27 +219,7 @@ Luas Permukaan
 
 L = 2πr(r+t)
 
-Kode:
-``
-double volumeTabung = Math.PI * jari * jari * t;
-double luasTabung = 2 * Math.PI * jari * (jari + t);
-Cara Menjalankan Program
-1. Compile Program
-javac BangunRuang.java
-2. Jalankan Program
-java BangunRuang
-Contoh Output Program
-=== PROGRAM MENGHITUNG BANGUN RUANG ===
-1. Kubus
-2. Balok
-3. Bola
-4. Tabung
-Pilih bangun ruang (1-4): 1
-
-Masukkan sisi kubus: 5
-
-Volume Kubus = 125
-Luas Permukaan Kubus = 150``
+# Output
 
 
 # Tujuan Pembuatan Program
