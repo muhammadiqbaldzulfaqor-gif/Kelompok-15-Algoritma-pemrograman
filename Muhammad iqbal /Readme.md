@@ -24,7 +24,7 @@ Penggunaan operasi matematika
 Penggunaan konstanta matematika dari Math.PI
 
 Source Code Program
-``
+
 import java.util.Scanner;
 
 public class BangunRuang {
@@ -103,18 +103,19 @@ public class BangunRuang {
 
         input.close();
     }
-}
-``
+    }
 
 Penjelasan Program
 1. Import Library
+``
 import java.util.Scanner;
-
+``
 Library Scanner digunakan untuk mengambil input dari pengguna melalui keyboard.
 
 2. Membuat Class Utama
+``
 public class BangunRuang {
-
+``
 Class BangunRuang merupakan class utama yang berisi seluruh program.
 
 3. Method Main
